@@ -5,15 +5,20 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB3B3CEB-8C92-4C52-8A55-F3BFE972900C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRepository", "src\SampleRepository\SampleRepository.csproj", "{D127CA29-C41F-41E4-A8BE-F5E829C2855E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleRepository", "src\SampleRepository\SampleRepository.csproj", "{D127CA29-C41F-41E4-A8BE-F5E829C2855E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{FBC4733B-755D-4992-914E-A052916C9EF7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		License.txt = License.txt
+		ReadMe.md = ReadMe.md
+		samplefile.txt = samplefile.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D127CA29-C41F-41E4-A8BE-F5E829C2855E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -21,7 +26,13 @@ Global
 		{D127CA29-C41F-41E4-A8BE-F5E829C2855E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D127CA29-C41F-41E4-A8BE-F5E829C2855E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D127CA29-C41F-41E4-A8BE-F5E829C2855E} = {FB3B3CEB-8C92-4C52-8A55-F3BFE972900C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0695D332-3AB8-478C-86F0-4355698872CC}
 	EndGlobalSection
 EndGlobal
