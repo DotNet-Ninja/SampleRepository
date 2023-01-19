@@ -40,3 +40,6 @@ Success
 ```
 
 You should now have a branch with the samplefile.txt deleted.
+
+
+See Octokit.net Issue https://github.com/octokit/octokit.net/issues/2659
